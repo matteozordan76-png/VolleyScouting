@@ -2,6 +2,7 @@
 {
   "short_name": "ScoutU13",
   "name": "Scout Volley U13 Pro",
+  "description": "App professionale per lo scouting del volley U13. Gestione multi-set, statistiche avanzate e report in PDF/Excel.",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3063/3063067.png",
@@ -10,9 +11,26 @@
       "purpose": "any maskable"
     }
   ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1592656094267-764a45159577?w=540&h=1170&fit=crop",
+      "sizes": "540x1170",
+      "type": "image/jpeg",
+      "label": "Schermata di Gara",
+      "platform": "android"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=540&h=1170&fit=crop",
+      "sizes": "540x1170",
+      "type": "image/jpeg",
+      "label": "Statistiche e Report",
+      "platform": "android"
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#2c3e50",
   "background_color": "#ffffff",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "categories": ["sports", "productivity"]
 }
